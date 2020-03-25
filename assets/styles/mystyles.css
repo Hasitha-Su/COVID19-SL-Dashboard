@@ -55,7 +55,7 @@
 }
 
 .h-name-div{
-    border-bottom: 2px solid rgb(33, 37, 41);
+    border-bottom: 2px solid rgba(33, 37, 41, 0.95);
 }
 
 .h-data-div{
