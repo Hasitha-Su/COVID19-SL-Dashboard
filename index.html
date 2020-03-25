@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Statistics - Sri Lanka</title>
+    <link href="assets/lib/fontawesome/css/all.css" rel="stylesheet">  
+    <script defer src="assets/lib/fontawesome/js/all.js"></script>
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" >
+    <link href="assets/styles/mystyles.css" rel="stylesheet"> 
+    <link rel='icon' href='assets/img/favi.ico' type='image/x-icon'/>
+</head>
+<body>
+    <div class="container">    
+        <div class="row justify-content-center">
+            <h2 class="head-topic">COVID-19 Statistics - Sri Lanka</h2>
+       </div>
+       <p class="txt-center" style="margin-bottom: 0px;">Updated on</p>
+       <div class="row justify-content-center">  
+            <p> 
+                <span id="update_date"></span>
+                <span>|</span>
+                <span id="update_time"></span>
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-3">
+                <div class="top-board-icon-div">
+                    <p>Total cases</p>
+                    <p class="top-board-icons"><i class="far fa-hospital"></i></p>
+                    <p id="local_total" class="top-board-values"></p>           
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="top-board-icon-div">
+                    <p class="">Currently active cases</p>
+                    <p class="top-board-icons"><i class="far fa-procedures"></i></p>
+                    <p id="local_active_cases" class="top-board-values"></p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="top-board-icon-div">
+                    <p>New cases</p>
+                    <p class="top-board-icons"><i class="far fa-ambulance"></i></p>
+                    <p id="local_new_cases" class="top-board-values"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-3">
+                <div class="top-board-icon-div">
+                    <p>Total confirmed cases</p>
+                    <p class="top-board-icons"><i class="far fa-hospital-user"></i></p>
+                    <p id="local_confirmed_cases" class="top-board-values"></p>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="top-board-icon-div">
+                    <p>Recovered</p>
+                    <p class="top-board-icons"><i class="far fa-house-leave"></i></p>
+                    <p id="local_recovered" class="top-board-values"></p>
+                </div>    
+             </div>
+
+            <div class="col-md-3">
+                 <div class="top-board-icon-div">
+                    <p>Local deaths</p>
+                    <p class="top-board-icons"><i class="far fa-tombstone "></i></p>
+                    <p id="local_deaths" class="top-board-values"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="txt-center head-topic-2">Sri Lankan Hospitals Overview</h2>
+        <div id="regularslider" class="row  justify-content-around"></div>
+    </div>
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
