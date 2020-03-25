@@ -32,8 +32,8 @@
     width: 150px;
 
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -55,7 +55,7 @@
 }
 
 .h-name-div{
-    border-bottom: 2px solid rgb(12, 12, 12);
+    border-bottom: 2px solid rgb(33, 37, 41);
 }
 
 .h-data-div{
